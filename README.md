@@ -3,7 +3,7 @@ TagAlong
 
 Solution for making a simple library.
 
-The project is currently in hiatus.
+The project is currently on hiatus.
 
 ## TagAlong server
 
