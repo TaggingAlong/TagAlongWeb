@@ -1,0 +1,3 @@
+var Plugins = {
+	"Default": function() {},
+};

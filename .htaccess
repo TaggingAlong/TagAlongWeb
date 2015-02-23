@@ -1,0 +1,8 @@
+RewriteEngine 	On
+
+# /media/1
+RewriteRule			Media/([0-9]+)/?$							./Media/index.php?fle=$1.json
+# /media/1/2
+RewriteRule			Media/([0-9]+)/?(([0-9])+/?)*$	./Media/index.php?fle=$1.json
+# /media/
+RewriteRule			Media/?$	./Media/index.php
